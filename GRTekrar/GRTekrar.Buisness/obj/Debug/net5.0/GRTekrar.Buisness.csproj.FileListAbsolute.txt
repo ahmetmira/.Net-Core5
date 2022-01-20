@@ -1,0 +1,17 @@
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTekrar.Buisness.deps.json
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTekrar.Buisness.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\ref\GRTekrar.Buisness.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTekrar.Buisness.pdb
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTekrar.DataAccess.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTrkrar.Entities.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTekrar.DataAccess.pdb
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\bin\Debug\net5.0\GRTrkrar.Entities.pdb
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.csproj.AssemblyReference.cache
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.AssemblyInfoInputs.cache
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.AssemblyInfo.cs
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.csproj.CoreCompileInputs.cache
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.csproj.CopyComplete
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\ref\GRTekrar.Buisness.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Buisness\obj\Debug\net5.0\GRTekrar.Buisness.pdb

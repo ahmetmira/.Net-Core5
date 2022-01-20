@@ -1,0 +1,11 @@
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\bin\Debug\net5.0\GRTrkrar.Entities.deps.json
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\bin\Debug\net5.0\GRTrkrar.Entities.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\bin\Debug\net5.0\ref\GRTrkrar.Entities.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\bin\Debug\net5.0\GRTrkrar.Entities.pdb
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\GRTrkrar.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\GRTrkrar.Entities.AssemblyInfoInputs.cache
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\GRTrkrar.Entities.AssemblyInfo.cs
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\GRTrkrar.Entities.csproj.CoreCompileInputs.cache
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\GRTrkrar.Entities.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\ref\GRTrkrar.Entities.dll
+F:\ASP.Net_Projeler\GRTekrar\GRTrkrar.Entities\obj\Debug\net5.0\GRTrkrar.Entities.pdb

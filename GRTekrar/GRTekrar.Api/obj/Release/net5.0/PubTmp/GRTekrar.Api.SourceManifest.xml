@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Api\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="F:\ASP.Net_Projeler\GRTekrar\GRTekrar.Api\obj\Release\net5.0\PubTmp\EFSQLScripts\GRTekrar.DataAccess.GRTekrarDbContext.sql" />
+</sitemanifest>

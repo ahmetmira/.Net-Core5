@@ -1,0 +1,172 @@
+﻿@page
+@model GRTekrar.Api.Pages.Product.ListModel
+@{
+}
+
+<!--begin::Wrapper-->
+<div class="d-flex flex-stack mb-5">
+    <!--begin::Search-->
+    <div class="d-flex align-items-center position-relative my-1">
+        <span class="svg-icon svg-icon-2">...</span>
+        <input type="text" data-kt-docs-table-filter="search" class="form-control form-control-solid w-250px ps-15" placeholder="Search Customers" />
+    </div>
+    <!--end::Search-->
+    <!--begin::Toolbar-->
+    <div class="d-flex justify-content-end" data-kt-docs-table-toolbar="base">
+        <!--begin::Filter-->
+        <button type="button" class="btn btn-light-primary me-3" data-bs-toggle="tooltip" title="Coming Soon">
+            <span class="svg-icon svg-icon-2">...</span>
+            Filter
+        </button>
+        <!--end::Filter-->
+        <!--begin::Add customer-->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">Add Product</button>
+        <!--end::Add customer-->
+    </div>
+    <!--end::Toolbar-->
+    <!--begin::Group actions-->
+    <div class="d-flex justify-content-end align-items-center d-none" data-kt-docs-table-toolbar="selected">
+        <div class="fw-bolder me-5">
+            <span class="me-2" data-kt-docs-table-select="selected_count"></span> Selected
+        </div>
+
+        <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" title="Coming Soon">
+            Selection Action
+        </button>
+    </div>
+    <!--end::Group actions-->
+</div>
+<!--end::Wrapper-->
+<!--begin::Datatable-->
+<table id="kt_datatable_example_1" class="table align-middle table-row-dashed fs-6 gy-5">
+    <thead>
+        <tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
+            <th class="w-10px pe-2">
+                <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+                    <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_datatable_example_1 .form-check-input" value="1" />
+                </div>
+            </th>
+            <th>Name</th>
+            <th>Stock</th>
+            <th>Price</th>
+            <th>Weight</th>
+            <th class="text-end min-w-100px">Actions</th>
+        </tr>
+    </thead>
+    <tbody class="text-gray-600 fw-bold">
+    </tbody>
+</table>
+<!--end::Datatable-->
+<!--begin::Modal - Customers - Add-->
+<div class="modal fade" id="kt_modal_add_customer" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-650px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Form-->
+            <form class="form" action="#" id="kt_modal_add_customer_form" data-kt-redirect="list.html">
+                <!--begin::Modal header-->
+                <div class="modal-header" id="kt_modal_add_customer_header">
+                    <!--begin::Modal title-->
+                    <h2 class="fw-bolder">Add a Product</h2>
+                    <!--end::Modal title-->
+                    <!--begin::Close-->
+                    <div id="kt_modal_add_customer_close" class="btn btn-icon btn-sm btn-active-icon-primary">
+                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                        <span class="svg-icon svg-icon-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                            </svg>
+                        </span>
+                        <!--end::Svg Icon-->
+                    </div>
+                    <!--end::Close-->
+                </div>
+                <!--end::Modal header-->
+                <!--begin::Modal body-->
+                <div class="modal-body py-10 px-lg-17">
+                    <!--begin::Scroll-->
+                    <div class="scroll-y me-n7 pe-7" id="kt_modal_add_customer_scroll" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_add_customer_header" data-kt-scroll-wrappers="#kt_modal_add_customer_scroll" data-kt-scroll-offset="300px">
+                        <!--begin::Input group-->
+                        <div class="fv-row mb-7">
+                            <!--begin::Label-->
+                            <label class="required fs-6 fw-bold mb-2">Product Name</label>
+                            <!--end::Label-->
+                            <!--begin::Input-->
+                            <input type="text" class="form-control form-control-solid" placeholder="" name="name" />
+                            <!--end::Input-->
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="fv-row mb-7">
+                            <!--begin::Label-->
+                            <label class="required fs-6 fw-bold mb-2">Stock</label>
+                            <!--end::Label-->
+                            <!--begin::Input-->
+                            <input type="text" class="form-control form-control-solid" placeholder="" name="stock" />
+                            <!--end::Input-->
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="fv-row mb-7">
+                            <!--begin::Label-->
+                            <label class="required fs-6 fw-bold mb-2">Price</label>
+                            <!--end::Label-->
+                            <!--begin::Input-->
+                            <input type="text" class="form-control form-control-solid" placeholder="" name="price" />
+                            <!--end::Input-->
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="fv-row mb-7">
+                            <!--begin::Label-->
+                            <label class="required fs-6 fw-bold mb-2">Weight</label>
+                            <!--end::Label-->
+                            <!--begin::Input-->
+                            <input type="text" class="form-control form-control-solid" placeholder="" name="weight" />
+                            <!--end::Input-->
+                            </div>
+                            <!--end::Input group-->
+                            <!--begin::Input-->
+                            <div class="fv-row mb-7">
+                                <label class="required fs-6 fw-bold mb-2">Category Name</label>
+                                <select name="category" aria-label="Select a Category" data-control="select2" data-placeholder="Select a Category..." data-dropdown-parent="#kt_modal_add_customer" class="form-select form-select-solid fw-bolder">
+                                    <option>Category</option>
+                                </select>
+                            </div>
+                            <!--end::Input-->
+                        </div>
+                        <!--end::Scroll-->
+                    </div>
+                    <!--end::Modal body-->
+                    <!--begin::Modal footer-->
+                    <div class="modal-footer flex-center">
+                        <!--begin::Button-->
+                        <button type="reset" id="kt_modal_add_customer_cancel" class="btn btn-light me-3">Discard</button>
+                        <!--end::Button-->
+                        <!--begin::Button-->
+                        <button type="submit" id="kt_modal_add_customer_submit" class="btn btn-primary">
+                            <span class="indicator-label">Submit</span>
+                            <span class="indicator-progress">
+                                Please wait...
+                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                            </span>
+                        </button>
+                        <!--end::Button-->
+                    </div>
+                    <!--end::Modal footer-->
+            </form>
+            <!--end::Form-->
+        </div>
+    </div>
+</div>
+<!--end::Modal - Customers - Add-->
+
+
+@section scripts{
+    <script src="~/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="~/assets/js/custom/pages/product/list.js" type="text/javascript" charset="utf-8"></script>
+}
+
+

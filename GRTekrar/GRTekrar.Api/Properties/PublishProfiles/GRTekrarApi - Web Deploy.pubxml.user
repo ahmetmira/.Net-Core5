@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfG9I768m9U6avdJ1oBJRawAAAAACAAAAAAAQZgAAAAEAACAAAAAZIWdqt9P0geg8+O36knMU+XsmPZ1rRy3o2TNdYwLX2QAAAAAOgAAAAAIAACAAAABvKGq5vkpyLifmnoqUM0jc3d/ojEBwsJDoRWgecRldo4AAAAAF5OYq9HFbbZ83FW+9Rhlo5sPXE88GC5I79Hjks5HbgbCYeooLuJ68QWtr7pluYq6rhFRNTPUhIrwZG+xfYpNXPz4xNXFOdmtRgLuLsSXzGIG74zfxuWlkgb9+DkpeQhjmc1bypiEG/mDhBpT+597dQ/t5mzjs8WtEILC7g3RVjUAAAADkr0BeozH/C4vC58aGQGsyTWyB6GArnTZfUw+qOS+Sdke1DJUO/d0KEZ2DcQ9i1WIplrFWmRpAOfKlQX0w4pb5</EncryptedPassword>
+    <History>True|2021-12-06T09:30:55.2706785Z;True|2021-12-01T16:57:16.3621191+03:00;True|2021-12-01T14:50:17.0287245+03:00;False|2021-12-01T14:47:14.0090011+03:00;True|2021-12-01T13:34:13.5439825+03:00;True|2021-12-01T13:23:31.0780712+03:00;True|2021-12-01T12:45:37.7366193+03:00;True|2021-12-01T12:20:29.8216824+03:00;True|2021-12-01T12:18:06.4285124+03:00;True|2021-12-01T11:45:07.3125745+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="GRTekrar.DataAccess.GRTekrarDbContext">
+      <Value>Data Source=tcp:grtekrarapidbserver.database.windows.net,1433%3bInitial Catalog=GRTekrar.Api_db%3bUser Id=ahmet%40grtekrarapidbserver%3bPassword=a.m1234%25</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

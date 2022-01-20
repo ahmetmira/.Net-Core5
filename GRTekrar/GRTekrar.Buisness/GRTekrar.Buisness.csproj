@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Concrete\CategoryServices.cs~RF288cff28.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GRTekrar.DataAccess\GRTekrar.DataAccess.csproj" />
+    <ProjectReference Include="..\GRTrkrar.Entities\GRTrkrar.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
